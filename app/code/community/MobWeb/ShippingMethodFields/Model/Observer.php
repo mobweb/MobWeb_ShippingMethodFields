@@ -27,7 +27,5 @@ class MobWeb_ShippingMethodFields_Model_Observer
         $fieldsAsString = trim($fieldsAsString, ', ');
 
         $order->setShippingDescription(sprintf('%s (%s)', $order->getShippingDescription(), $fieldsAsString));
-
-        Mage::log($order->getShippingDescription(), NULL, 'm3.txt');
     }
 }
