@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <checkout_onepage_index translate="label">
+        <reference name="checkout.onepage.shipping_method.additional">
+            <block type="shippingmethodfields/fields" name="checkout.onepage.shipping_method.additional.fields" as="fields" template="checkout/onepage/shipping_method/fields.phtml" />
+        </reference>
+    </checkout_onepage_index>
+</layout>

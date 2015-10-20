@@ -1,0 +1,12 @@
+app/code/community/MobWeb/ShippingMethodFields app/code/community/MobWeb/ShippingMethodFields/
+
+app/design/frontend/base/default/layout/shippingmethodfields.xml app/design/frontend/base/default/layout/shippingmethodfields.xml
+
+app/design/frontend/base/default/template/checkout/onepage/shipping_method/fields.phtml app/design/frontend/base/default/template/checkout/onepage/shipping_method/fields.phtml
+
+app/design/frontend/default/default/template/checkout/onepage/shipping_method/additional.phtml app/design/frontend/default/default/template/checkout/onepage/shipping_method/additional.phtml
+
+app/etc/modules/MobWeb_ShippingMethodFields.xml app/etc/modules/MobWeb_ShippingMethodFields.xml
+
+# Clear the cache
+@shell   rm -rf $PROJECT/var/cache/* && echo "Magento Cache cleared"

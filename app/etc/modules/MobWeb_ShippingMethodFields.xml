@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+	<modules>
+		<MobWeb_ShippingMethodFields>
+			<active>true</active>
+			<codePool>community</codePool>
+		</MobWeb_ShippingMethodFields>
+	</modules>
+</config>

@@ -1,0 +1,26 @@
+<div class="shipping-method-fields">
+    <fieldset>
+        <ul class="form-list">
+            <li class="fields">
+                <div class="field">
+                    <label for="pickup_store">
+                        <?php echo $this->__('Pickup Store') ?>
+                    </label>
+                    <div class="input-box">
+                        <input type="text" name="pickup_store" value="<?php //echo $this->htmlEscape($this->getQuote()->getShippingMethodPickupStore()) ?>" title="<?php echo $this->__('Store') ?>" id="pickup_store" />
+                    </div>
+                </div>
+            </li>
+            <li class="fields">
+                <div class="field">
+                    <label for="pickup_date">
+                        <?php echo $this->__('Pickup Date') ?>
+                    </label>
+                    <div class="input-box">
+                        <input type="text" name="pickup_date" value="<?php //echo $this->htmlEscape($this->getQuote()->getShippingMethodPickupDate()) ?>" title="<?php echo $this->__('Date') ?>" id="pickup_date" />
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </fieldset>
+</div>
